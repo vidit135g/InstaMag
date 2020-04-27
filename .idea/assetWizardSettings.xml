@@ -25,6 +25,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="opacityPercent" value="80" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -71,8 +72,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="C:\Users\vidit\Downloads\Compressed\InstantInsta-main\InstantInsta-main\app\src\main\res\drawable\instagram.png" />
-                                      <entry key="outputName" value="ic_insta" />
+                                      <entry key="imageAsset" value="D:\Code\Android Projects\Backup\InstantInsta-main\InstantInsta-main\app\src\main\res\drawable\instagram.png" />
+                                      <entry key="outputName" value="ic_launcher" />
                                       <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="fd1d1d" />
                                     </map>
@@ -91,6 +92,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="scalingPercent" value="66" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -100,6 +103,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="foregroundImage" value="D:\Code\Android Projects\Backup\InstantInsta-main\InstantInsta-main\app\src\main\res\drawable\instagram.png" />
                                       <entry key="outputName" value="settings" />
                                     </map>
                                   </option>
@@ -122,6 +126,25 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="paddingPercent" value="25" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="iconShape" value="CIRCLE" />
+                                      <entry key="imageAsset" value="D:\Code\Android Projects\InstantInsta-main\InstantInsta-main\app\src\main\res\drawable\instagram.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -152,7 +175,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>

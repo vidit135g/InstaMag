@@ -132,8 +132,8 @@
       />
   <android.support.v7.widget.CardView
       android:id="@+id/cv_downloadView"
-      android:layout_width="300dp"
-      android:layout_height="300dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
       android:layout_gravity="center_horizontal"
       android:visibility="visible"
       app:cardElevation="4dp"
@@ -148,7 +148,7 @@
 
       <FrameLayout
           android:layout_width="match_parent"
-          android:layout_height="280dp"
+          android:layout_height="384dp"
           >
 
 
@@ -156,10 +156,10 @@
 
          <ImageView
              android:id="@+id/ivImage"
-          android:src="@drawable/imageinsta"
+             android:background="@color/white"
           android:layout_width="match_parent"
              android:scaleType="fitXY"
-             android:layout_height="352dp"
+             android:layout_height="384dp"
              />
 
 
