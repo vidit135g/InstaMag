@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="@dimen/dp_8"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:padding="14dp"
+        android:paddingStart="18dp"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingLeft="18dp">
+
+
+        <ImageView
+            android:layout_height="52dp"
+            android:layout_width="52dp"
+            android:id="@+id/accountpic"
+            android:clickable="true"
+            android:src="@drawable/instagram"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:clickable="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/username"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_marginStart="@dimen/dp_16"
+                android:clickable="true"
+                android:text="InstaMag"
+                android:gravity="top|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/userid"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_marginStart="@dimen/dp_16"
+                android:clickable="true"
+                android:text="thecompanyabsolute@gmail.com"
+                android:textColor="@color/grey_800"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginBottom="10dp"
+        android:background="#c1c1c1"/>
+
+    <TextView
+        android:id="@+id/download"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_downloads"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="Download"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_downloads" />
+
+
+
+    <TextView
+        android:id="@+id/history"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:clickable="true"
+        android:background="@drawable/ripple_text"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="History"
+        android:drawableStart="@drawable/ic_history"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_history" />
+
+
+    <TextView
+        android:id="@+id/share"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableTint="#505050"
+        android:drawableStart="@drawable/ic_share"
+        android:gravity="start|center_vertical"
+        android:text="Share"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_share" />
+
+
+
+
+    <TextView
+        android:id="@+id/gallery"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableTint="#505050"
+        android:drawableStart="@drawable/ic_gallery"
+        android:gravity="start|center_vertical"
+        android:text="Gallery"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_gallery" />
+
+    <TextView
+        android:id="@+id/about"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/ic_info"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="About"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_info" />
+</LinearLayout>

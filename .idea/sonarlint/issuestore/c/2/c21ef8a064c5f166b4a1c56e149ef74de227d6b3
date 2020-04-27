@@ -1,0 +1,30 @@
+
+>
+java:S1068"")Remove this unused "dbcon" private field.(’ò:
+l
+java:S1450"VRemove the "rvInsta" field and declare it as a local variable in the relevant methods.(ççòó
+K
+java:S1128"5Remove this unused import 'android.text.TextWatcher'.( š«
+t
+java:S1450 "WRemove the "notfound" field and declare it as a local variable in the relevant methods.(ÃüË‰8‡ÎêÌ›.
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+M
+java:S1128
+"2Remove this unused import 'android.text.Editable'.(À”áÈşÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'android.view.MenuInflater'.(¥ñ´Ò
+J
+java:S1128"4Remove this unused import 'android.widget.EditText'.(†Å›Ú
+k
+java:S1128"PRemove this unused import 'com.rishabh.github.instagrabber.database.InstaImage'.(»—½Æúÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'android.support.v7.widget.PopupMenu'.(Ëç“¾ÿÿÿÿÿ
+v
+java:S1488("`Immediately return this expression instead of assigning it to the temporary variable "fragment".(–ŒŸ÷
+i
+java:S1450""TRemove the "dbcon" field and declare it as a local variable in the relevant methods.(’ò:
+H
+java:S1128"2Remove this unused import 'android.view.MenuItem'.(Ğ¬Ó‘
+m
+java:S1450"WRemove the "mContext" field and declare it as a local variable in the relevant methods.(¥•Îğ

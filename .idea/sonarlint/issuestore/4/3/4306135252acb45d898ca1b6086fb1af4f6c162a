@@ -1,0 +1,35 @@
+
+x
+java:S4165f"bRemove this useless assignment; "type" already holds the assigned value along all execution paths.(¥¯¼
+g
+java:S2095€"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(¢ƒ7
+e
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(åâ¹…
+k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Åü¿şÿÿÿÿ
+Z
+java:S2583‘"CChange this condition so that it does not always evaluate to "true"(›ÓÓÓ
+T
+java:S1128"?Remove this unused import 'android.provider.SyncStateContract'.(ô™öm
+V
+java:S1128";Remove this unused import 'android.os.DeadObjectException'.(ğ°µ¸şÿÿÿÿ
+b
+java:S3027P"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(Øûõïÿÿÿÿÿ
+b
+java:S3027R"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(äÔ²ıÿÿÿÿ
+b
+java:S3027`"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(’ºÑÚşÿÿÿÿ
+b
+java:S3027b"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(š…Á‰üÿÿÿÿ
+b
+java:S3027t"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(Î§»©üÿÿÿÿ
+b
+java:S3027v"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(ò‰‹øÿÿÿÿ
+e
+java:S4042š"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+V	java:S899š";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+O
+java:S1197Ÿ"8Move the array designator from the variable to the type.(²ÙÜœ
+A
+java:S1172Õ"*Remove this unused method parameter "url".(ş¶Ş€
+T	java:S106Ü"9Replace this use of System.out or System.err by a logger.(Â·şÿÿÿÿ
+T	java:S106ß"9Replace this use of System.out or System.err by a logger.(È¨şøÿÿÿÿ

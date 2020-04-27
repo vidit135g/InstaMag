@@ -1,0 +1,13 @@
+
+f	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÚÀ—
+i
+java:S20957"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ù¸›Œúÿÿÿÿ
+C
+java:S1481k".Remove this unused "imagePath" local variable.(¼šñM
+f	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ ¢
+N
+java:S11979"8Move the array designator from the variable to the type.(²ÙÜœ
+R
+java:S1854k"=Remove this useless assignment to local variable "imagePath".(¼šñM
+f
+java:S20954"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(¢ƒ7

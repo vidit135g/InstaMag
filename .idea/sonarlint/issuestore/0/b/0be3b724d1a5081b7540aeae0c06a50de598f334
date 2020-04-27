@@ -1,0 +1,75 @@
+
+]	java:S899¯";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8¯µØ›.
+<
+java:S1659R"&Declare "btnguide" on a separate line.(İ›ğò
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(Â·şÿÿÿÿ8¯µØ›.
+j	java:S101ÿ"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù˜ãØ8¯µØ›.
+€
+java:S4165ó"bRemove this useless assignment; "type" already holds the assigned value along all execution paths.(¥¯¼8¯µØ›.
+[	java:S106´"9Replace this use of System.out or System.err by a logger.(ÄÌ¾Ëÿÿÿÿÿ8¯µØ›.
+j
+java:S3027ƒ"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(Î§»©üÿÿÿÿ8¯µØ›.
+[	java:S106¦"9Replace this use of System.out or System.err by a logger.(È¨şøÿÿÿÿ8¯µØ›.
+j
+java:S3027î"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(’ºÑÚşÿÿÿÿ8¯µØ›.
+F
+java:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¯µØ›.
+j
+java:S3027"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(š…Á‰üÿÿÿÿ8¯µØ›.
+U
+java:S1135¬"2Complete the task associated to this TODO comment.(Şã§Øùÿÿÿÿ8¯µØ›.
+s	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Åü¿şÿÿÿÿ8¯µØ›.
+j
+java:S3027á"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(äÔ²ıÿÿÿÿ8Í”ñÖ›.
+:
+java:S1659`"%Declare "cvGuide" on a separate line.(ŸÛÍe
+j
+java:S3027ß"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(Øûõïÿÿÿÿÿ8Í”ñÖ›.
+j
+java:S3027€"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(äÔ²ıÿÿÿÿ8Í”ñÖ›.
+F
+java:S1185ˆ"(Remove this method to simply inherit it.(Ö‰ü¼8¯µØ›.
+j
+java:S3027ñ"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(Î§»©üÿÿÿÿ8Í”ñÖ›.
+V
+java:S1197´"8Move the array designator from the variable to the type.(²ÙÜœ8¯µØ›.
+j
+java:S3027"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(’ºÑÚşÿÿÿÿ8¯µØ›.
+Z
+java:S2589ƒ"7Remove this expression which always evaluates to "true"(ÒğĞ–şÿÿÿÿ8¯µØ›.
+p
+java:S1450O"URemove the "tvCopy" field and declare it as a local variable in the relevant methods.(¢à¼ıÿÿÿÿ
+9
+java:S1659S"#Declare "ivDel" on a separate line.(‚á¦Ò
+F
+java:S1604°"(Make this anonymous inner class a lambda(ÿ¨Ğß8¯µØ›.
+W
+java:S4973¨"9Use the "equals" method if value comparison was intended.(ÄÎÍê8¯µØ›.
+j
+java:S3027ğ"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(š…Á‰üÿÿÿÿ8¯µØ›.
+t
+java:S3776p"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ËÄ•åûÿÿÿÿ8„‰’×›.
+=
+java:S1659S"'Declare "ivPlayBtn" on a separate line.(‚á¦Ò
+j
+java:S3027…"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(ò‰‹øÿÿÿÿ8¯µØ›.
+<
+java:S1659R"&Declare "btnPaste" on a separate line.(İ›ğò
+A
+java:S1659^"&Declare "tvCancel" on a separate line.(ÊÅ¸ƒûÿÿÿÿ
+V	java:S106É"9Replace this use of System.out or System.err by a logger.(ŸòòÇ8¯µØ›.
+n	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÍÚ®8¯µØ›.
+j
+java:S3027ó"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(ò‰‹øÿÿÿÿ8¯µØ›.
+n
+java:S2095"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(¢ƒ78¯µØ›.
+j
+java:S3027ş"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(Øûõïÿÿÿÿÿ8Í”ñÖ›.
+l
+java:S4042¯"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8¯µØ›.
+[	java:S106¹"9Replace this use of System.out or System.err by a logger.(—æá‚ıÿÿÿÿ8¯µØ›.
+l
+java:S2095²"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(åâ¹…8¯µØ›.
+X
+java:S1141–"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¯µØ›.
+s	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áçÌßûÿÿÿÿ8¯µØ›.

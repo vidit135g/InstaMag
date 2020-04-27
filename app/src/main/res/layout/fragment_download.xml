@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    >
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/name_text_input"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittxturl"
+            android:typeface="monospace"
+            android:focusable="true"
+            android:focusedByDefault="true"
+            android:layout_weight="1"
+            android:hint="Enter URL"
+            custom:targetApi="o" />
+
+      </android.support.design.widget.TextInputLayout>
+
+      <ImageView
+          android:id="@+id/ivDel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@android:drawable/ic_delete"
+          android:layout_marginTop="16dp"
+          />
+
+    </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:orientation="vertical"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="30dp"
+      >
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:theme="@style/AppTheme.Button"
+        android:text="Check URL"
+        android:textSize="16sp"
+        android:paddingRight="25dp"
+        android:visibility="visible"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/btnCheckURL"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:theme="@style/AppTheme.Button"
+        android:text="Paste"
+        android:textSize="16sp"
+        android:paddingRight="25dp"
+        android:visibility="visible"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/btnPaste"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:theme="@style/AppTheme.Button"
+        android:text="How To"
+        android:textSize="16sp"
+        android:paddingRight="25dp"
+        android:visibility="visible"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/btnguide"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+  </LinearLayout>
+
+    </LinearLayout>
+  <TextView
+      android:text="File Saved To InstantMag/download"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView3"
+      android:gravity="center"
+      android:textColor="@color/black"
+      android:layout_margin="10dp"
+      />
+  <android.support.v7.widget.CardView
+      android:id="@+id/cv_downloadView"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:layout_gravity="center_horizontal"
+      android:visibility="visible"
+      app:cardElevation="4dp"
+      app:borderWidth="0dp"
+      app:cardUseCompatPadding="true"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="280dp"
+          >
+
+
+
+
+         <ImageView
+             android:id="@+id/ivImage"
+          android:src="@drawable/imageinsta"
+          android:layout_width="match_parent"
+             android:scaleType="fitXY"
+             android:layout_height="352dp"
+             />
+
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:layout_marginLeft="14dp"
+            android:id="@+id/donut_progress"
+            android:layout_gravity="center"
+            custom:donut_text_size="10dp"
+            custom:donut_progress="30"
+            android:visibility="gone"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:minWidth="5dp"
+            />
+
+        <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:scaleType="fitXY"
+             android:id="@+id/image"
+             >
+
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:id="@+id/llDownloadLayout"
+               android:background="#112233"
+               android:layout_height="48dp"
+               android:gravity="center_vertical"
+               >
+
+
+             <TextView
+                 android:text="0%"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="14dp"
+                 android:textColor="#ff0004"
+                 android:id="@+id/tvProgress"
+                 android:layout_margin="8dp"
+                 android:visibility="gone"
+                 />
+             <TextView
+                 android:id="@+id/tvCancel"
+                 android:text="Cancel"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:layout_margin="8dp"
+                 android:textSize="14dp"
+                 android:textColor="#ff0004"
+                 android:visibility="gone"
+                 />
+
+             <!--<TextView-->
+                 <!--android:text="1 task left"-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"-->
+                 <!--android:textSize="14dp"-->
+                 <!--android:textColor="#FFFF00"-->
+                 <!--android:layout_gravity="center"-->
+                 <!--android:visibility="gone"-->
+                 <!--android:id="@+id/tv_task"-->
+                 <!--/>-->
+
+
+           </LinearLayout>
+          <ImageView
+              android:id="@+id/ivPlayBtn"
+              android:layout_width="75dp"
+              android:layout_height="75dp"
+              android:src="@drawable/ic_play_forth"
+              android:layout_centerVertical="true"
+              android:layout_centerHorizontal="true"
+              android:elevation="15dp"
+              android:visibility="invisible"
+
+
+              />
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            app:backgroundTint="@color/colorAccent"
+            android:src="@drawable/ic_action_download"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="25dp"
+            />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:id="@+id/progressBar"
+            android:max="100"
+            android:layout_marginTop="-10dp"
+            android:background="#ff0000"
+            android:elevation="2dp"
+            />
+      </FrameLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_margin="18dp"
+          >
+      <io.github.rockerhieu.emojicon.EmojiconTextView
+          android:id="@+id/tv_caption"
+          android:text="lorum aefaf aefai fae faoieuf aeof asadfafmasfiamsofmaofmaaasfckasflaniifoaoaridhabh asidnad anwid aniwd naiw dnai dna nda a"
+          android:paddingBottom="4dp"
+          emojicon:emojiconAlignment="baseline"
+          android:ellipsize="end"
+          android:textColor="#000000"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+
+      <TextView
+          android:id="@+id/tvCopy"
+          android:text="COPY ALL"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="right"
+          android:paddingRight="18dp"
+          android:textColor="@color/colorPrimaryDark"
+          android:elegantTextHeight="true"
+          android:textStyle="normal|bold"
+          />
+      </LinearLayout>
+    </LinearLayout>
+  </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+
+
+  </ScrollView>

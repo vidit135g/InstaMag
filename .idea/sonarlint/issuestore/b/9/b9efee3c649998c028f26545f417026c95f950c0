@@ -1,0 +1,17 @@
+
+T
+java:S1481*"2Remove this unused "mCheckRefresh" local variable.(×¯Àùÿÿÿÿ8æÆğ¸›.
+†
+java:S1450"dRemove the "mCheckHistoryListener" field and declare it as a local variable in the relevant methods.(Ù«—ûÿÿÿÿ8èÎŸ¹›.
+c
+java:S1854*"ARemove this useless assignment to local variable "mCheckRefresh".(×¯Àùÿÿÿÿ8æÆğ¸›.
+†
+java:S1450"dRemove the "mCheckGalleryListener" field and declare it as a local variable in the relevant methods.(Û¦ ıúÿÿÿÿ8¿£ ¹›.
+„
+java:S1450"bRemove the "mCheckAboutListener" field and declare it as a local variable in the relevant methods.(Œáì—ÿÿÿÿÿ8×¸¾¶›.
+‡
+java:S1450"eRemove the "mCheckDownloadListener" field and declare it as a local variable in the relevant methods.(‹¤—³şÿÿÿÿ8ı³¹›.
+„
+java:S1450"bRemove the "mCheckShareListener" field and declare it as a local variable in the relevant methods.(û›çüÿÿÿÿ8×¸¾¶›.
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8®‰å¶›.

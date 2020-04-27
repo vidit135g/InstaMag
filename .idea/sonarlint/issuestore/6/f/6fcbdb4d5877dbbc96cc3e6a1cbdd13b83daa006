@@ -1,0 +1,23 @@
+
+y
+java:S1192“"]Define a constant instead of duplicating this literal "file:///sdcard/InstantInsta/" 3 times.(”¿‚‡üÿÿÿÿ
+?
+java:S1604»"(Make this anonymous inner class a lambda(îë Ì
+W
+java:S1128"ARemove this unused import 'android.transition.TransitionManager'.(¦àì“
+Z
+java:S1128"?Remove this unused import 'android.graphics.drawable.Drawable'.(Á‰º„ùÿÿÿÿ
+n
+java:S14502"XRemove the "extension" field and declare it as a local variable in the relevant methods.(‘ış
+=
+java:S1172 "&Remove these unused method parameters.(¦Œœ¢
+˜
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Œœ¢
+D
+java:S1659€"(Declare "ivSettings" on a separate line.(ï¡ Úÿÿÿÿÿ
+D
+java:S1659€"(Declare "ivItemPlay" on a separate line.(ï¡ Úÿÿÿÿÿ
+B
+java:S1659"&Declare "tvDelete" on a separate line.( ¥œ·ûÿÿÿÿ
+e
+java:S4042–"IUse "java.nio.Files#delete" here for better messages on error conditions.(¥ÎÀøÿÿÿÿ
